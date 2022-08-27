@@ -16,6 +16,7 @@
       "DESCONHECIDO" => "www.teste.com.us",
       "GLOBO" => "www.globo.com",
       "CELULAR" => "192.168.0.0",
+      "GOOGLE" => "www.google.com"
     ];
 
   ?>
@@ -31,9 +32,9 @@
           $retorno = shell_exec("C:\Windows\system32\ping -n 1 $ip");
 
           if (preg_match("/tempo</", $retorno) || preg_match("/tempo=/", $retorno)) {
-            $status = "online";
+            $status = "ONLINE";
           } else {
-            $status = "offline";
+            $status = "OFFLINE";
           }
       ?>
 
