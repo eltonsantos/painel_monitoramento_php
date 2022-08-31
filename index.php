@@ -16,6 +16,7 @@
       "DESCONHECIDO" => "www.teste.com.us",
       "GLOBO" => "www.globo.com",
       "CELULAR" => "192.168.0.0",
+      "LOCALHOST" => "127.0.0.1",
       "GOOGLE" => "www.google.com"
     ];
 
